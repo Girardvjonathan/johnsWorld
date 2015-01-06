@@ -25,7 +25,7 @@ if socket.gethostname() == 'Skynet' or socket.gethostname() == 'TangoXoulou':
 else:
     DEBUG = TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
